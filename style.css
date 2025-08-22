@@ -1,0 +1,259 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.hero-Img{
+   padding: 45px 0 105px;
+   overflow: hidden;
+   background: linear-gradient(rgba(171, 50, 43, 0.5)), url(../images/bgImg.png);
+   background-repeat: no-repeat;
+   background-position: center;
+   background-attachment: fixed;
+   background-size: 100% 100%;
+ 
+}
+.hero-Img header{
+    margin-bottom: 140px;
+}
+
+nav .navbar{
+    padding-top: 15px;
+}
+nav .navbar li{
+    display: inline-block;
+    margin-left: 10px;
+}
+nav .navbar li a{
+    color: #fff;
+   padding: 10px;
+   font-size: 16px;
+   font-weight: regular;
+   text-transform: uppercase;
+   position: relative;
+}
+nav .navbar li a::after{
+    content : '';
+    background-color: #fff;
+    height: 3px;
+    width: 0%;
+    left:0;
+    bottom: 0;
+    position: absolute;
+    transition: all .4s ease-in;
+}
+nav .navbar li a:hover::after{
+    width: 100%;
+}
+
+.hero-info h2{
+    font-size: 52px;
+    font-weight: bold;
+    color: #fff;
+    text-transform: uppercase;
+    margin-bottom: 58px;
+}
+.hero-info p{
+     font-size: 36px;
+     font-weight: regular;
+    color: #fff;
+    margin-bottom: 50px;
+}
+.hero-info a{
+      font-size: 18px;
+      font-weight: bold;
+      color: #fff;
+      text-transform: uppercase;
+      background-color: #282828;
+      padding: 15px 65px 15px 35px;
+      border-radius: 40px;
+      
+}
+.hero-info i{
+    padding-right: 24px;
+    font-size: 45px;
+    vertical-align: middle;
+}
+.mobile-img{
+    position: relative;
+}
+.mobile-img img {
+    position: absolute;
+    right: -40px;
+    top: -35px;
+    width: 99%;
+}
+
+     /* ##################################hero-image-section end#######################  */
+
+     .feature-section{
+        padding: 85px 0 110px;
+
+     }
+     .feature-section .feature-heading h2{
+        font-size: 52px;
+        font-weight: bold;
+        color: #8a8a8a;
+        text-transform: uppercase;
+        text-align: center;
+        margin-bottom: 45px;
+     }
+     .feature-section .feature-heading  p{
+        font-size: 22px;
+        font-weight:regular;
+        color: #3a3a3a;
+        text-align: center;
+         margin-bottom: 65px;
+      
+     }
+     .feature-info figure{
+            width: 180px;
+            height: 180px;
+             margin: 0 auto 35px;
+     }
+
+     .feature-info figure img{
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+     }
+     .feature-section .feature-info h2{
+        font-size: 24px;
+        color: #1a1a1a;
+        font-weight: bold;
+        margin-bottom: 45px ;
+        text-transform: uppercase;
+     }
+     .feature-section .feature-info p{
+        font-size: 18px;
+        color: #646464;
+     }
+
+      /* ####################################feature-section end ############################## */
+
+      .chocolate-section{
+        padding: 195px 0 175px;
+        background: linear-gradient(rgba(215, 222, 220,0.3)), url(../images/78H.png);
+        background-position: right;
+        background-attachment: fixed;
+        background-size:100% 100%;
+        background-repeat: no-repeat;
+        overflow: hidden;
+      }
+     
+      .chocolate-info h2{
+        font-size: 52px;
+        color: #fff;
+        font-weight: bold;
+        margin-bottom: 55px ;
+        text-transform: uppercase;
+      }
+       .chocolate-info p{
+        font-size: 24px;
+        color: #585858;
+        font-weight:regular;
+        margin-bottom: 73px ;
+       
+      }
+      .chocolate-info a{
+        font-size: 15px;
+        color: #fff;
+        font-weight:bold;
+       text-transform: uppercase;
+       background-color: #f55150;
+       padding: 17px 24px;
+       border-radius: 25px;
+       
+      }
+        /* ####################################chocolate-section end ############################## */
+
+        .footer-section .footer-info{
+            padding: 120px 0 148px;
+            background-color: #2e2e38;
+        }
+         .footer-list h4{
+            font-size: 20px;
+            font-weight: bold;
+            text-transform: capitalize;
+            color: #fff;
+            margin-bottom: 25px;
+         }
+         .box-para {
+            display: inline-block;
+           
+            padding-top: 8px;
+           
+            
+         }
+
+         .box-para p{
+            font-size: 15px;
+            font-weight: regular;
+            color: #fff;
+           
+           
+         }
+         .box-para h6{
+            font-size: 14px;
+            color: #fff;
+            font-weight: bold;
+         }
+         .box-para span{
+            font-size: 11px;
+            color: #fff;
+         }
+        .footer-section .footer-info .footer-list .box{
+         background-color: #f55150;
+           width: 55px;
+           height: 45px;
+           display: inline-block;
+            margin-right: 20px;
+         
+          
+         }
+         .footer-list-info{
+            margin-bottom: 25px;
+         }
+
+         .footer-contact{
+            padding: 40px 0 35px;
+            background-color: #d7dedc;
+         }
+
+         .footer-contact-info{
+            text-align: center;
+           
+         }
+         .footer-contact-info p , .social-icons{
+            display: inline-block;
+         }
+          .footer-contact-info .social-icons a{
+            margin-right: 35px;
+            vertical-align: middle;
+          }
+         .footer-contact-info p span{
+            padding: 0 25px;
+         }
+         .footer-contact-info p, .footer-contact-info p a {
+            font-size: 25px;
+            color: black;
+
+         }
+         .fa-facebook{
+                background-color: #4661a0;
+                color: #fff;
+                border-radius: 3px;
+         }
+         .fa-dribbble{
+            background-color: #c15984;
+             color: #fff;
+              border-radius: 3px;
+         }
+
+         .fa-twitter{
+             background-color: #9ee5e8;
+             color: #2c72a5;
+              border-radius: 3px;
+         }

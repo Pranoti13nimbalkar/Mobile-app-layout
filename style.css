@@ -135,7 +135,7 @@ nav .navbar li a:hover::after{
 
       .chocolate-section{
         padding: 195px 0 175px;
-        background: linear-gradient(rgba(215, 222, 220,0.3)), url(../images/78H.png);
+        background: linear-gradient(rgba(215, 222, 220,0.3)), url(78H.png);
         background-position: right;
         background-attachment: fixed;
         background-size:100% 100%;
@@ -258,3 +258,4 @@ nav .navbar li a:hover::after{
               border-radius: 3px;
 
          }
+
